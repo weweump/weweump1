@@ -1,6 +1,7 @@
 using HorizonSideRobots
 robot = Robot("starts/task1.sit",animate = true)
 
+#прямой крест
 function all_mark!(robot::Robot)
     num_nord = topleft_num!(robot,Nord)
     num_west = topleft_num!(robot,West)   
